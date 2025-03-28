@@ -1,0 +1,13 @@
+# Simulation parameters
+{
+    'n_charges': 32,
+    'ring_radius': 1e-09,
+    'charge_ring': 1.28e-18,
+    'electron_position': [5e-10, 0.0, 0.0],
+    'electron_velocity': [0.0, 2000000.0, 1000000.0],
+    'dt': 1e-16,
+    't_max': 1e-06,
+    'electron_mass': 9.10938356e-31,
+    'electron_charge': -1.602176634e-19,
+    'k': 8987551792.3
+}
