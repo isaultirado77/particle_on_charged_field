@@ -23,7 +23,6 @@ class ChargedRingSystem:
         self.electron_charge = electron_charge
         self.k = k
         
-        # Inicializar estado del electrón: [x, y, z, vx, vy, vz]
         self.state = np.array([
             electron_position[0], electron_position[1], electron_position[2],
             electron_velocity[0], electron_velocity[1], electron_velocity[2]
@@ -60,7 +59,6 @@ class ChargedRingSystem:
         x, y, z, vx, vy, vz = state
         pos = np.array([x, y, z])
         
-        # Campo eléctrico en la posición actual
         E = self.electric_field(pos)
         
         # Fuerza sobre el electrón: F = q_e * E
