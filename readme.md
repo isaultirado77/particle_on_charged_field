@@ -2,6 +2,13 @@
 
 Este proyecto simula el movimiento de un electrón en el campo eléctrico creado por un anillo de cargas positivas, utilizando integración de Runge-Kutta de 4to orden (RK4). La simulación incluye visualización 3D de la trayectoria y análisis de energía.
 
+## Análisis y Visualización
+
+Los resultados de la simulación pueden explorarse en el siguiente notebook:
+
+[![Ver Notebook de Análisis](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/isaultirado77/particle_on_charged_field/blob/main/simulation_analysis.ipynb)
+```
+
 ## Estructura del Proyecto
 - `electron_on_charged_field.py`: Script principal de la simulación (implementación de RK4)
 - `plotting.py`: Visualización de trayectorias y dinámica de energía
@@ -41,7 +48,4 @@ Parámetros clave:
 - Paquetes necesarios:
 ```bash
 pip install numpy matplotlib scipy
-```
-
-[![Ver Notebook de Análisis](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/isaultirado77/particle_on_charged_field/blob/main/simulation_analysis.ipynb)
 ```
