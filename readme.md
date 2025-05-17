@@ -6,7 +6,7 @@ Este proyecto simula el movimiento de un electrón en el campo eléctrico creado
 
 Los resultados de la simulación pueden explorarse en el siguiente notebook:
 
-[![Ver Notebook de Análisis](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/isaultirado77/particle_on_charged_field/blob/main/simulation_analysis.ipynb)
+- `simulation_analysis.ipynb` [![Ver Notebook de Análisis](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/isaultirado77/particle_on_charged_field/blob/main/simulation_analysis.ipynb)
 ```
 
 ## Estructura del Proyecto
